@@ -1,0 +1,50 @@
+nav {
+    background-color: rgb(150, 34, 204);
+    color: aliceblue;
+    height: 2.1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.WelText {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(150, 34, 204);
+    font-weight: bold;
+}
+
+#StGm {
+    background-color: rgb(150, 34, 204);
+    color: aliceblue;
+    border-radius: 5px;
+    height: 2.2rem;
+    width: 10rem;
+}
+
+.displaybox {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(241, 239, 236);
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+}
+
+.option {
+    background-color: rgb(150, 34, 204);
+    color: aliceblue;
+    border-radius: 5px;
+    height: 2.2rem;
+    width: 10rem;
+    display: flexbox;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#Quit{
+    background-color: rgb(150, 34, 204);
+    color: aliceblue;
+    border-radius: 5px;
+    height: 2.2rem;
+    width: 10rem;
+}
