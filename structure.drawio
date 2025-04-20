@@ -1,0 +1,113 @@
+<mxfile host="65bd71144e">
+    <diagram id="aFhTFtrdVRVTI-G9qcVa" name="Page-1">
+        <mxGraphModel dx="2032" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="40" width="580" height="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="KBC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="50" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="endArrow=none;html=1;exitX=-0.002;exitY=0.09;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.997;entryY=0.092;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3" target="3">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="400" y="220" as="sourcePoint"/>
+                        <mxPoint x="450" y="170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="START GAME" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=10;fillColor=#666666;align=center;strokeColor=#4D4D4D;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="150" width="170" height="26.88" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Welcome Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="110" width="520" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8" target="25">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="770" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="Question Display Area" style="rounded=1;whiteSpace=wrap;html=1;fontSize=26;" vertex="1" parent="1">
+                    <mxGeometry x="152.5" y="210" width="535" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Total score" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="567.5" y="116.88" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="OPTION C" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=15;fillColor=#666666;align=center;strokeColor=#4D4D4D;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="470" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="OPTION A" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=15;fillColor=#666666;align=center;strokeColor=#4D4D4D;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="393.44" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="15" target="33">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="430" y="670" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="QUIT" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=16;fillColor=#666666;align=center;strokeColor=#4D4D4D;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="560" width="180" height="36.88" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="17" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Score of Current Question" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="OPTION D" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=15;fillColor=#666666;align=center;strokeColor=#4D4D4D;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="515.5" y="470" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="19" target="31">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="780" y="408" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="OPTION B" style="rounded=1;html=1;shadow=0;dashed=0;whiteSpace=wrap;fontSize=15;fillColor=#666666;align=center;strokeColor=#4D4D4D;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="515.5" y="393.44" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Starts the Game on Click.&lt;div&gt;Listens and waits for the event to be triggered&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="90" width="150" height="86.88" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.173;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6" target="20">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="468" y="200"/>
+                            <mxPoint x="800" y="200"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="Changes Dynamically as score for each Question is different" style="rounded=1;whiteSpace=wrap;html=1;fontSize=13;" vertex="1" parent="1">
+                    <mxGeometry x="-40" y="120" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Display Zone for all the questions changes after a succesfull answer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="260" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Listens to the event on click and checks if the answer is correct and the display text changes dynamically with each question" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="765" y="377.66" width="180" height="61.56" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Listens to the event on click and if triggered exits the game with the current score being the final score" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="680" width="180" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="LOGICS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontSize=15;" vertex="1" parent="1">
+                    <mxGeometry x="-390" y="100" width="340" height="110" as="geometry">
+                        <mxRectangle x="-390" y="100" width="90" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="Start Game Feature- Either the game elements are hidden or not interactable before the event is triggered" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="38">
+                    <mxGeometry y="20" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Quit Game Feature-&amp;nbsp; This quits the game at the spot and the player score remains intact as it is." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="38">
+                    <mxGeometry y="50" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Score Updation- The score is constantly updated during the game duration.&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="38">
+                    <mxGeometry y="80" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Option Check- This is required for game to move forward and also is the base logic for the game mechanics." style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="-390" y="210" width="340" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Dynamic Question Display- The display box displays current question and changes after each correct answer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="42">
+                    <mxGeometry y="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
