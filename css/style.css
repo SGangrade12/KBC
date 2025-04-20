@@ -1,9 +1,12 @@
+/* Reset Default Stylling */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
 }
+
+/* Add Background Textures */
 
 body {
     background-color: #121212;
