@@ -14,6 +14,8 @@ body {
     justify-content: center;
     min-height: 100vh;
     padding: 20px;
+    position: relative;
+    width: 100%;
 }
 
 header {
@@ -42,12 +44,56 @@ nav {
     margin: 0 auto;
 }
 
+/* Container for game elements with relative positioning */
+.game-area {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+#TScore {
+    background-color: #0e4d92;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: -10px;
+    right: 0;
+    z-index: 10;
+}
+
+#CScore {
+    background-color: #0e4d92;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: -10px;
+    left: 0;
+    z-index: 10;
+}
+
 .displaybox {
     background-color: #0e4d92;
     border: 2px solid #ffffff;
     border-radius: 10px;
     padding: 20px;
-    margin: 20px 0;
     width: 80%;
     max-width: 600px;
     min-height: 100px;
@@ -56,6 +102,8 @@ nav {
     justify-content: center;
     font-size: 18px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    z-index: 5;
 }
 
 button {
@@ -114,6 +162,17 @@ button {
 }
 
 @media screen and (max-width: 768px) {
+    #CScore, #TScore {
+        position: static;
+        margin: 10px auto;
+    }
+    
+    .game-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
     .option, .displaybox {
         width: 90%;
     }
